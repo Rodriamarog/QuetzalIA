@@ -15,7 +15,7 @@ async function rewriteQuery(
   }
 
   try {
-    const contextStr = recentMessages
+    const contextStr = recentMessages //⚠️
       .slice(-6)
       .map(m => `${m.role === 'user' ? 'Usuario' : 'Asistente'}: ${m.content.substring(0, 200)}`)
       .join('\n')
@@ -124,7 +124,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Build plain-text conversation history for context
-    const conversationHistory = messages.slice(0, -1).map((m: any) => ({
+    const conversationHistory = messages.slice(0, -1).map((m: any) => ({//⚠️
       role: m.role as string,
       content: extractText(m),
     }))

@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata: Metadata = {//⚠️
   title: "QuetzalIA — Jurisprudencia Mexicana con IA",
   description: "Asistente legal con RAG para consultar 310,000+ tesis jurisprudenciales mexicanas",
 };
