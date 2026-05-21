@@ -26,7 +26,7 @@ export const MarkdownMessage = memo(function MarkdownMessage({
     [content, onTesisClick]
   )
 
-  return (
+  return (//⚠️
     <Streamdown
       className="prose prose-sm dark:prose-invert max-w-none"
       components={{
