@@ -4,7 +4,7 @@ interface LoadingDotsProps {
   isSearching?: boolean
 }
 
-export function LoadingDots({ isSearching = true }: LoadingDotsProps) {
+export function LoadingDots({ isSearching = true }: LoadingDotsProps) {//⚠️
   const [message, setMessage] = useState('Pensando')
 
   useEffect(() => {
