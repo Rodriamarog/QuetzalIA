@@ -66,7 +66,7 @@ function TesisModal({
 
 // ── Chat message ───────────────────────────────────────────────────────────
 
-const ChatMessage = memo(function ChatMessage({
+const ChatMessage = memo(function ChatMessage({//⚠️
   message,
   index,
   animatingIndex,
@@ -172,7 +172,7 @@ export default function Home() {
   const animatingIndex = useMessageAnimation(messages.length)
 
   // Scroll listeners
-  useEffect(() => {
+  useEffect(() => {//⚠️
     const root = scrollRef.current
     if (!root) return
     const viewport = root.querySelector('[data-radix-scroll-area-viewport]')
@@ -209,7 +209,7 @@ export default function Home() {
     prevSourcesLengthRef.current = sources.length
   }, [sources.length])
 
-  const handleSubmit = async (e?: React.FormEvent) => {
+  const handleSubmit = async (e?: React.FormEvent) => {//⚠️
     if (e) e.preventDefault()
     if (!inputValue.trim() || status === 'streaming' || isLoading) return
     const text = inputValue
