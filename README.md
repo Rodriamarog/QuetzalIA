@@ -120,6 +120,34 @@ Las API keys y URLs sensibles no se almacenan directamente dentro del código fu
 La aplicación requiere que el servidor RAG se encuentre activo y accesible para funcionar correctamente. Si el backend no está disponible, las búsquedas jurídicas y la generación de respuestas no podrán completarse.
 
 ---
+---
+
+## Capturas del sistema
+
+### Interfaz principal
+[Ver captura](https://drive.google.com/file/d/1l-6-f3r_-TIrBg6pKqEXnqsOOmOYXcoT/view?usp=sharing)
+
+### Resultados jurídicos
+[Ver captura](https://drive.google.com/drive/folders/16kNOw_aIFN8OFLFg03dsc8I8nNbmbsd1?usp=sharing)
+
+### Video demostrativo
+[Ver captura](https://drive.google.com/file/d/1WPTsOUZKrTk6LUjOzMTHYP0f6XualLh3/view?usp=sharing)
+
+### Fuentes consultadas
+[Ver captura](https://bicentenario.scjn.gob.mx/manual-usuario-descarga)
+
+---
+
+## Video demostración
+
+[Ver video del proyecto](https://drive.google.com/file/d/150Qph1Drl_9Y7CxHyIrHhbvd3209R36W/view?usp=sharing)
+
+---
+
+## Presentación
+
+[Ver presentación](https://gamma.app/docs/QuetzalIA-El-Futuro-de-la-Justicia-Inteligente-ricy0jfwhyeu6qw)
+
 
 ## ⚠️ Disclaimer
 
